@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:fontFamily="serif"
+            android:justificationMode="inter_word"
+            android:text="Инсоннинг Ердаги умри мобайнида амалга оширадиган ишлари нималардан иборат? Ўз
+Тақдири йўлидан бориб, кўнглига туккан орзу-умидларини амалга ошириши учун инсонга энг
+зарур нарса нима?..
+“Алкимёгар” романи мана шундай кўламли, мазмунан фалсафий, моҳиятан эса оддий инсоний
+муаммо ҳақида.
+Асар муаллифи— ҳозирги замоннинг машҳур ёзувчиси бразилиялик Пауло Коело.
+“Алкимёгар” Ричард Бахнинг “Оқчарлоқ Жонатан” ёки “Шарпалар” асарларига ўхшамайди.
+Экзюперининг “Кичик Шаҳзода”сига ҳам ўхшаш томонлари жуда кам. Бироқ негадир
+“Алкимёгар”ни ўқиганда беихтиёр ўша ривоят-қиссалар ёдга тушади. Зотан, бу асар айнан
+ҳозирги замон китобхонлари учун ёзилгандек ва “Алкимёгар”нинг турли давлатлар
+арбобларию, машҳур санъаткорлар ҳамда ҳозирча бир юз ўн етти мамлакатдаги миллионлаб
+адабиёт мухлислари томонидан севиб ўқилиши шундан далолатдир.
+“Бизнинг сайёрамизда бир буюк ҳақиқат барқарор: агар сиз чиндан ниманидир орзу қилсангиз,
+унга албатта эришасиз. Зотан, бу орзу Олам Қалбида ҳам туғилади ва айни шунинг ўзи сизнинг
+Ерда мавжудлигингиз тасдиқи, сизнинг тақдирингиздир”, деб ёзади П. Коело"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="20sp" />
+    </ScrollView>
+</RelativeLayout>
